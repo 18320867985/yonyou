@@ -1,0 +1,1220 @@
+@media (max-width:992px){
+    body{ min-width: 1250px !important;}
+}
+body{
+	background: #e6e6e6;
+}
+body div{
+	overflow: hidden;
+}
+body ul{
+	overflow: hidden;
+}
+.main{
+	width: 1170px;
+	margin: 0px auto;
+	position: relative;
+	padding:10px 0;
+}
+.m30{
+	margin: 30px auto;
+}
+.m30{
+	margin: 30px auto;
+}
+.bbai{
+	background: #FFFFFF;
+}
+/*内页顶部导航*/
+
+
+
+
+.header{
+    background: url("../images/yzt_header_bg.jpg")/*tpa=http://www.yonyou.com/static/images/yzt_header_bg.jpg*//*tpa=http://www.yonyou.com/static/images/yzt_header_bg.jpg*/ repeat-x;
+    height: 82px;
+    width: 100%;
+    min-width: 980px;
+}
+
+
+.sub .logo{
+	background: url("../images/logo_y.jpg.png")/*tpa=http://www.yonyou.com/static/images/logo_y.jpg*/ 0px 0px no-repeat;
+    width: 216px;
+    height: 40px;
+    float: left;
+    margin-top: 17px;
+}
+.sub .logo a{
+	width: 216px;
+	height: 40px;
+	display: block;
+}
+.sub .title{
+	color: #ffffff;
+	float: left;
+}
+.sub .title h1{
+	font-size: 20px;
+	line-height: 100px;
+	font-weight: normal;
+}
+.sub .msg,.sub .logout{
+    line-height: 73px;
+    width: 90px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+}
+.sub .msg a,.sub .logout a{
+	color: #333;
+	padding-left: 40px;
+}
+.sub .msg {
+	margin-right: 2px;
+}
+.sub .msg a{
+	background: url("../images/icons_msg.png")/*tpa=http://www.yonyou.com/static/images/icons_msg.png*//*tpa=http://www.yonyou.com/static/images/icons_msg.png*/ left center no-repeat;
+	margin-right: 2px;
+}
+.sub .logout a{
+	background: url("../images/icons_logout.png")/*tpa=http://www.yonyou.com/static/images/icons_logout.png*//*tpa=http://www.yonyou.com/static/images/icons_logout.png*/ left center no-repeat;
+}
+
+
+/*内页左导航*/
+
+.leftnav{
+	width: 240px;
+	float: left;
+	border-right: 20px solid #e6e6e6;
+    webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+/*    height: 632px;*/
+}
+.leftnav .img{
+	height: 215px;
+	background: #f2f2f2;
+	position: relative;
+}
+.leftnav .img img{
+	margin: 30px auto;
+    width: 120px;
+    height: 120px;
+    display: block;
+    border-radius: 60%;
+}
+.leftnav .img .name{
+	position: absolute;
+	font-size: 18px;
+	width: 200px;
+	left: 20px;
+	bottom: 20px;	
+	text-align: center;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.leftnav .btn{
+    padding: 0px 30px;
+    background: #ee5c48;
+    height: 215px;
+}
+.leftnav .btn input{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.leftnav .btn .loginBtn{
+    background: #fff;
+}
+.leftnav .renzheng{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 2px solid #FFFFFF;
+}
+.leftnav .renzheng li{
+	float: left;
+	background: #ff7e6c;
+	width: 79px;
+	height: 75px;
+	border-right: 1px solid #ff9889;
+    webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.leftnav .renzheng li:first-child{
+	background: url("../images/icons_shenfen2.png")/*tpa=http://www.yonyou.com/static/images/icons_shenfen2.png*//*tpa=http://www.yonyou.com/static/images/icons_shenfen2.png*/ center center no-repeat #ff7e6c;
+}
+.leftnav .renzheng li.on:first-child{
+	background: url("../images/icons_shenfen.png")/*tpa=http://www.yonyou.com/static/images/icons_shenfen.png*//*tpa=http://www.yonyou.com/static/images/icons_shenfen.png*/ center center no-repeat #ff7e6c;
+}
+.leftnav .renzheng li:nth-child(2){
+	background: url("../images/icons_shouji2.png")/*tpa=http://www.yonyou.com/static/images/icons_shouji2.png*//*tpa=http://www.yonyou.com/static/images/icons_shouji2.png*/ center center no-repeat #ff7e6c;	
+}
+.leftnav .renzheng li.on:nth-child(2){
+	background: url("../images/icons_shouji.png")/*tpa=http://www.yonyou.com/static/images/icons_shouji.png*//*tpa=http://www.yonyou.com/static/images/icons_shouji.png*/ center center no-repeat #ff7e6c;	
+}
+.leftnav .renzheng li:last-child{
+	background: url("../images/icons_youxiang2.png")/*tpa=http://www.yonyou.com/static/images/icons_youxiang2.png*//*tpa=http://www.yonyou.com/static/images/icons_youxiang2.png*/ center center no-repeat #ff7e6c;
+}
+.leftnav .renzheng li.on:last-child{
+	background: url("../images/icons_youxiang.png")/*tpa=http://www.yonyou.com/static/images/icons_youxiang.png*//*tpa=http://www.yonyou.com/static/images/icons_youxiang.png*/ center center no-repeat #ff7e6c;
+}
+.leftnav .renzheng li span{
+	display: none;
+}
+.leftnav .nav{
+	width: 100%;
+	height: 340px;
+}
+.leftnav .nav li{
+	float: left;
+	width: 100%;
+	height: 85px;
+	line-height: 85px;
+}
+.leftnav .nav li a{
+	height: 85px;
+	width: 100%;
+	display: block;	
+	text-align: center;
+	font-size: 16px;
+	color: #666666;
+    padding: 0;
+}
+.leftnav .nav li.on a,.leftnav .nav li a:hover{
+	background: url("../images/icons_tri.png")/*tpa=http://www.yonyou.com/static/images/icons_tri.png*//*tpa=http://www.yonyou.com/static/images/icons_tri.png*/ 200px center no-repeat #f2f2f2;
+}
+
+/*内页右边box*/
+.rightbox{
+	width: 910px;
+	float: left;
+	font-size: 14px;
+	color: #aaaaaa;
+	border-left: 20px solid #e6e6e6;
+    webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+	position: absolute;
+	top: 0px;
+	right: 0px;	
+/*    height: 632px;*/
+}
+.popup{
+	width: 510px;
+	background: #FFFFFF;
+	position: fixed;
+	z-index: 999;
+	top: 0px;
+	left: 0px;	
+	display: none;
+}
+.popup .title{
+	height: 50px;
+	background: #ff7e6c;
+}
+.popup .title h4.setup{
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 50px;
+	background: url("../images/icons_setup2.png")/*tpa=http://www.yonyou.com/static/images/icons_setup2.png*//*tpa=http://www.yonyou.com/static/images/icons_setup2.png*/ 10px 10px no-repeat;
+	padding-left: 50px;
+}
+.popup .sd{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.popup .sd dd{
+	float: left;
+	line-height: 30px;
+}
+.popup .sd .l{
+	width: 40%;
+}
+.popup .sd .r{
+	width: 60%;
+}
+.popup .sd input{
+	border: 1px solid #aaaaaa;
+	margin-right: 10px;
+}
+.popup .button{
+	text-align: center;
+}
+.popup .button a{
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	display: inline-block;
+	margin-right: 10px;
+	background: #d9d9d9;
+	color: #FFFFFF;
+}
+.popup .button a:hover{
+	background: #ff7e6c;
+}
+
+
+
+.show {
+	display: block
+}
+.hide {
+	display: none
+}
+
+.page a, .msgChangeSetting, .cancleReset {
+	cursor: pointer
+}
+
+
+/*二级页面*/
+.subfeature{
+	width: 100%;
+	height: 350px;
+	margin-top: 106px;
+}
+.jianjie{
+	background: url("../images/sub_feature1.jpg")/*tpa=http://www.yonyou.com/static/images/sub_feature1.jpg*//*tpa=http://www.yonyou.com/static/images/sub_feature1.jpg*/ center center no-repeat;
+}
+.sitemap{
+	font-size: 14px;
+	margin: 10px 0;
+}
+.sitemap a:hover{
+	color: #e60012;
+}
+.sitemap span{
+	margin: 0px 5px;
+}
+.subnav{ 
+	width: 100%;
+	background: #f2f2f2;
+}
+.subnav ul{
+	width: 100%;
+	height: 75px;
+	border-bottom: 2px solid #e60012;
+}
+.subnav ul.center{
+	border-bottom: none;
+}
+.subnav .border{
+	height: 2px;
+	background:#e60012;
+	width: 100%;
+}
+.subnav ul li{
+	height: 75px;
+	line-height: 75px;
+	float: left;
+	font-size: 16px;
+	overflow: hidden;
+	display: block;
+	margin: 0px 10px 0px 0px;
+	padding: 0px 10px;
+}
+.subnav ul li a{
+	text-align: center;
+	width: 100%;
+	height: 75px;
+	display: block;	
+}
+.subnav ul li.on{
+	background: #e60012;	
+}
+.subnav ul li.on a{
+	color: #FFFFFF;
+}
+.subcontent{
+	font-size: 14px;
+	color: #999999;
+	
+}
+.subcontent p{
+	margin: 10px 0px;
+/*    text-indent: 28px;*/
+}
+.subcontent .logo{
+	width: 100%;
+}
+.subcontent .logo li{
+	width: 220px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+/*
+.subcontent .news{
+	height: auto;
+}
+.subcontent .news ul{
+	width: 100%;
+}
+.subcontent .news li{
+	width: 100%;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.subcontent .news li .date{
+	width: 70px;
+	text-align: center;
+	font-size: 14px;
+	color: #9c9c9c;
+}
+.subcontent .news li .date span{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	display: block;
+	background: #e6e6e6;
+	color: #ff7f6c;
+	font-size: 40px;
+}
+.subcontent .news li .content{
+	width: 90%;
+	color: #333333;
+}
+.subcontent .news li .content .title{
+	color: #333333;
+	font-weight: bold;
+	font-size: 18px;
+}
+.subcontent .news li .content .title a{
+	color: #333333;
+}
+.subcontent .news li .content .title a:hover{
+	color: #e60012;
+}
+.subcontent .news li .content .sub{
+	margin: 5px 0px;
+}
+.subcontent .news li .content .txt a:hover{
+	color: #e60012;
+}
+*/
+.fenye{
+	width: 32%;
+	float: right;
+}
+.fenye li{
+	float: left;
+	width: 36px;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 5px;
+}
+.fenye a{
+	border: 1px solid #9f9f9f;
+	color: #999999;
+	text-align: center;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	display: inline-block;
+	cursor: pointer;
+}
+.fenye a:hover, .fenye a.selected{
+
+	border: none;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;	
+	background: #ff7e6c;
+	color: #FFFFFF;
+}
+.fenye a.prev,.fenye a.next{
+	width: 20px;
+	border: none;
+	background: #ff7e6c;
+	color: #FFFFFF;	
+}
+.subcontent h1{
+	color: #333333;
+	text-align: center;
+	font-size: 20px;
+}
+.subcontent .prev a:hover,.subcontent .next a:hover{
+	color: #e60012;
+}
+.subcontent .clientCase{
+    height: auto;
+    margin-top: 40px;
+}
+.subcontent .clientCase li {
+    width: 100%;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.subcontent .clientCase li .labellist {
+    width: 70px;
+    text-align: center;
+    font-size: 14px;
+    color: #9c9c9c;
+}
+.subcontent .clientCase li .labellist span {
+    display: block;
+    background: #e6e6e6;
+    color: #ff7f6c;
+    font-size: 24px;
+    padding: 20px;
+}
+.subcontent .clientCase li .content{
+    width: 90%;
+    color: #333333;
+}
+.subcontent .clientCase li .content .split-4{
+    width: 25%;
+    text-align: center;
+}
+.subcontent .clientCase li .content .split-3{
+    width: 33%;
+    text-align: center;
+}
+.subcontent .clientCase li .content .title{
+    color: #333333;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.subcontent .clientCase li .content .kehulist{
+    color: #6a6a6a;
+}
+.kehulist li {
+    text-align: left;
+    font-size: 15px;
+    list-style: disc inside;
+    margin-bottom: 10px!important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.kehulist li a:hover{
+    color: #e60012;
+}
+
+
+
+
+/*视觉用友*/
+.newspart {
+    margin-top: 10px;
+    border: 1px solid #dadada;
+}
+.newspart dt {
+    padding: 10px 0;
+    background: #f5f5f5;
+    border-bottom: 1px solid #dadada;
+}
+.newspart h2 {
+    font: 24px/26px "微软雅黑", "黑体";
+    color: #e60012;
+    border-left: 5px solid #e60012;
+    padding-left: 35px;
+}
+.newspart ul {
+    padding: 20px 0 20px 10px;
+}
+.newspart li {
+    float: left;
+    width: 47%;
+    position: relative;
+    padding-left: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+.shijue li{
+    background: url("../images/iconvideo.jpg")/*tpa=http://www.yonyou.com/static/images/iconvideo.jpg*//*tpa=http://www.yonyou.com/static/images/iconvideo.jpg*/ no-repeat left center;
+}
+.newspart li a:link, .newspart li a:visited {
+    line-height: 40px;
+    color: #787878;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+    margin: 30px 0px;
+    padding: 0px;
+}
+
+
+.box-gray {
+    border: 1px solid #dadada;
+}
+.box-gray h2 {
+    margin: 0;
+    padding: 10px 0 10px 10px;
+    font: 21px/24px "微软雅黑", "黑体";
+    color: #e60012;
+    border-bottom: 1px solid #dadada;
+    background: #efefef;
+}
+.box-gray h2 span {
+    display: inline-block;
+    padding-left: 5px;
+    border-left: 4px solid #e60012;
+}
+.jryylist {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.jryylist ul {
+    margin: 0px;
+    width: 100%;
+}
+@media screen and (min-width: 800px) and (max-width: 1024px){ 
+.jryylist li {
+    width: 50%;
+}
+}
+.jryylist li {
+    float: left;
+    padding-left: 20px;
+    width: 25%;
+}
+.jryylist a {
+    position: relative;
+    font: 15px/50px "微软雅黑", "黑体";
+    color: #646464;
+}
+.jryylist a:before {
+    position: absolute;
+    top: 2px;
+    left: -20px;
+    content: "";
+    width: 14px;
+    height: 16px;
+    background: url("../images/iconpaper.png")/*tpa=http://www.yonyou.com/static/images/iconpaper.png*//*tpa=http://www.yonyou.com/static/images/iconpaper.png*/ no-repeat 0 0;
+}
+
+
+
+
+.newslist1{
+    padding-left: 80px;
+}
+.newslist1 li {
+    color: #696969;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "微软雅黑", "黑体";
+    font-size: 14px;
+    line-height: 30px;
+    width: 100%;
+}
+.newslist1 li table td a {
+    padding-left: 15px;
+    background: url("../images/iconrd.png")/*tpa=http://www.yonyou.com/static/images/iconrd.png*//*tpa=http://www.yonyou.com/static/images/iconrd.png*/ no-repeat left center;
+    display: block;
+}
+
+
+.newspart {
+    margin-top: 0;
+    border: 1px solid #dadada;
+}
+.newspart dt {
+    padding: 10px 0;
+    background: #f5f5f5;
+    border-bottom: 1px solid #dadada;
+}
+.newspart dt .pull-right {
+    padding-right: 15px;
+    float: right;
+}
+a.btn-red:link, a.btn-red:visited {
+    color: #ffffff;
+    background: #e60012;
+}
+@media screen (min-width: 768px){
+.yonyouapp dd {
+    padding: 20px 40px;
+}
+}
+.yonyouapp dd {
+    padding: 20px 40px;
+}
+.yonyouapp h4 {
+    margin-bottom: 25px;
+}
+.text-red a{
+    color: #e9343e;
+}
+.yonyouapp ul {
+    padding-top: 5px;
+}
+@media screen (min-width: 768px){
+.newspart ul {
+    padding-left: 20px;
+}
+}
+.yonyouapp li {
+    width: 98%;
+    color: #646464;
+    font: 14px/24px "微软雅黑", "黑体";
+    background: url("../images/liststyle2.jpg")/*tpa=http://www.yonyou.com/static/images/liststyle2.jpg*//*tpa=http://www.yonyou.com/static/images/liststyle2.jpg*/ no-repeat left center;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+.yonyouapp .col-xs-4 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #646464;
+}
+.yonyouapp .col-xs-4 img {
+    margin-top: 5px;
+}
+
+
+
+
+
+/*企业成员*/
+.auto_img {
+    width: auto;
+    max-width: 100%;
+    margin-top: 15px;
+}
+
+
+/*企业文化*/
+.title-default {
+    margin: 15px 0;
+    background: #f4f4f4;
+}
+.title-default span {
+    display: block;
+    padding-left: 24px;
+    width: 150px;
+    font: bolder 20px/45px "微软雅黑", "黑体";
+    color: #e60012;
+    background: #e6e6e6;
+}
+.text-default2 {
+    padding-left: 1.5em;
+    font: 16px/40px "微软雅黑", "黑体";
+    color: #727272;
+}
+
+
+
+
+/*领航者*/
+.linghang h2 {
+    margin: 0px;
+    font: 24px/36px "微软雅黑", "黑体";
+    color: #4b4b4b;
+    margin-top: 8px;
+}
+.linghang .text-zhiwu {
+    margin: 10px 0;
+    font: 16px/24px "微软雅黑", "黑体";
+    color: #646464;
+}
+.linghang .text-shuoming {
+    font: 13px/24px "微软雅黑", "黑体";
+    color: #a2a2a2;
+}
+
+
+
+/*用友荣誉*/
+.yeartab li {
+    float: left;
+    padding: 5px;
+    width: 16.66666%;
+    text-align: center;
+}
+.yeartab li.focus a{
+    border: 1px solid #e60012;
+}
+.yeartab a:link, .yeartab a:visited {
+    display: block;
+    font: 24px/36px Arial;
+    color: #e60012;
+    text-decoration: none;
+    border: 1px solid #d7d7d7;
+}
+.yeartab small {
+    display: inline;
+    text-align: left;
+    font: 14px/16px "微软雅黑", "黑体";
+    color: #848484;
+}
+.text-default {
+    line-height: 24px;
+}
+.text-red {
+    font: 16px/36px "微软雅黑", "黑体";
+    color: #e60012;
+}
+.itemdiv{
+    display: none;
+}
+.itemfocus{
+    display: block;
+}
+
+
+
+
+
+/*用友大事记*/
+.gdt_yy strong{
+    color: #333;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 14px;
+    border-left: 5px solid #eeeeee;
+}
+
+
+
+
+
+
+/*投资者关系*/
+.topnews {
+    background: #f4f4f4;
+}
+.topnews .pic {
+    text-align: left;
+}
+.topnews .pic img{
+    margin-top: 0;
+}
+.topnews .content {
+    width: 90%;
+}
+.topnews h3 {
+    color: #333;
+    margin-top: 20px;
+}
+.topnews p {
+    font: 15px/30px "微软雅黑", "黑体";
+    color: #787878;
+}
+.newspart ul {
+    padding-left: 35px;
+}
+.touzhizhe li:before {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    content: "";
+    border-left: 5px solid #e60012;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+
+
+
+
+
+/*Bootstrap样式*/
+.modal-dialog {
+    width: 450px;
+    margin: 130px auto 0px;
+}
+.modal-content{
+    box-shadow:0px 6px 8px rgba(0,0,0,0.15);
+}
+.modal-header{
+    padding:0;
+    border-bottom:0;
+}
+.modal-header .close{
+    width:26px;
+    padding-bottom: 4px;
+    margin-top:0px;
+}
+.modal-header .close:hover{
+    background:#ca4242;
+    opacity:1;
+    border-radius:0px 4px 0px 0px;
+    color:#fff;
+    font-weight:100;
+}
+.modal-title{
+    font-size:24px;
+    text-align:center;
+    color:#ca4242;
+    padding:20px 0 5px;
+    margin-left: 26px;
+}
+.panel-title{
+    color:#cd3a3a;
+}
+.modal-body {
+    padding: 0px 30px 25px 30px;
+}
+
+.autoComplete {
+	padding-left: 10px;
+    display: none;
+    background-color: white;
+    font-size: 14px;
+    position: absolute;
+    border: 1px solid #4190db;
+    width: 330px;
+    overflow-y: auto;
+    z-index: 999999;
+}
+.autoComplete li {
+    color: #333;
+    cursor: pointer;
+    text-indent: 5px;
+    margin-top: 5px;
+}
+.autoComplete_ul .hover {
+    background: #4190db;
+    color: #fff;
+}
+.input_group{
+    display: table;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.input_group1{
+    margin-bottom: 5px;
+}
+.input_group_addon{
+    width: 53px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 6px 0px 0px 6px;
+    border-right: 0;
+}
+.form_control{
+    width: 335px;
+    *width: 315px;
+    height: 36px;
+    *height: 34px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 0px 6px 6px 0px;
+    padding-left: 16px;
+}
+.form_control1{
+    width: 137px;
+    *width: 117px;
+}
+.form_control2{
+    width: 315px;
+    *width: 295px;
+    border-top-left-radius: 6px!important;
+    border-bottom-left-radius: 6px!important;
+}
+.col_lg_6{
+    width: 50%;
+}
+.col_lg_61{   
+    padding-right: 1%;
+}
+.col_lg_62{
+    padding-left: 1%;
+}
+.col_lg_6 .btn{
+    height: 40px;
+    font-size: 16px;
+}
+.codeBtn{
+    font-size:16px;
+    color: #fff;
+    height: 47px;
+}
+.imageCodeImg{
+    width: 110px;
+    height: 46px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+/*
+.text{
+    width: 60px;
+    height: 46px;
+    color: #428bca;
+    line-height: 25px;
+    text-align: right;
+}
+.text:link{
+    color: #428bca;
+}
+.text:hover{
+    color: #428bca;
+    text-decoration: underline;
+}
+*/
+.btn-lg{
+    width: 100%;
+}
+
+
+
+/*成功之后样式*/
+.activeFinish{
+    text-align: center;
+}
+.activeFinish .icons{
+    padding: 55px 0px 40px;
+}
+.activeFinish .registerSuccess{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.activeFinish .sendEmail{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.activeFinish .registerSuccess .success{
+    color: #0c9d19;
+}
+.activeFinish .gotoLoginBtn{
+    color: #e60012;
+    font-size: 14px;
+    cursor: pointer;
+}
+.resendEmail, .changeEmailAddress,.resendEmail:hover, .changeEmailAddress:hover{
+    color: #357ebc;
+    cursor: pointer;
+    margin-top: 47px;
+}
+
+#resetSuccess{
+    display:none;
+}
+
+.labelbox td {
+    position: relative;
+}
+
+#userImgUpload {
+	width: 65px;
+	height: 56px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.submitBtn {
+	display: none;
+	color: #fff;
+	background-color: #337ab7;
+	border: 1px solid #2e6da4;
+	padding: 0px 14px;
+	height: 26px;
+	line-height: 20px;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 4px;
+	margin-left: 10px;
+}
+
+#userHeadImgAlt, .localImg {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*股份伙伴*/
+.huoban h1 {
+    font: 40px/46px "微软雅黑" , "黑体";
+    color: #e60012;
+    text-align: left;
+}
+.text-default {
+    font: 15px/26px "微软雅黑" , "黑体";
+    color: #646464;
+}
+.text-big {
+    font: 16px/30px "微软雅黑" , "黑体";
+}
+.text-big .mid {
+    color: #e60012;
+}
+.mid {
+    font-family: "宋体";
+    font-size: 20px;
+}
+.huoban h2 {
+    padding: 10px 0 10px 10px;
+    font: 21px/24px "微软雅黑" , "黑体";
+    color: #e60012;
+    background: #efefef;
+}
+.huoban h2 span {
+    display: inline-block;
+    padding-left: 5px;
+    border-left: 4px solid #e60012;
+}
+.news-pic {
+    text-align: center;
+    color: #8f8f8f;
+}
+.news-pic img {
+    margin: 10px 0;
+}
+
+
+
+
+
+
+/*联系用友*/
+.diqu dt {
+    padding: 10px 0 10px 60px;
+    font: bolder 18px/20px "微软雅黑", "黑体";
+    color: #e60012;
+    background: #f6f6f6 url("../images/icondown.png")/*tpa=http://www.yonyou.com/static/images/icondown.png*//*tpa=http://www.yonyou.com/static/images/icondown.png*/ no-repeat 96% center;
+    border-bottom: 1px solid #dbdbdb;
+    cursor: pointer;
+}
+.diqu dd {
+    padding: 10px 0 10px 60px;
+    font: 15px/36px "微软雅黑", "黑体";
+}
+a.diqu-first:link, a.diqu-first:visited {
+    font-weight: bolder;
+    color: #e60012;
+}
+.diqu dd a {
+    color: #4b4b4b;
+    padding: 10px 30px 10px 0;
+}
+.chengyuanlist {
+    min-height: 107px;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 30px;
+    font: 15px/27px "微软雅黑", "黑体";
+    color: #4b4b4b;
+    background: #f6f6f6;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+
+
+/*footer*/
+.footer{
+	background: #242424;
+	width: 100%;
+	font-size: 14px;
+}
+.footer .p60{
+	padding: 40px 0px;
+}
+.footer .left,.footer .right{
+	float: left;
+}
+.footer .left ul,.footer .right ul{
+	float: left;
+	line-height: 25px;
+}
+.footer .left ul{
+	margin-right: 100px;
+}
+.footer .right ul:first-child{
+	margin-right: 100px;
+}
+.footer .right ul:last-child{
+	float: right;
+}
+.footer .left{
+	width: 510px;
+	background: url("../images/line.png")/*tpa=http://www.yonyou.com/static/images/line.png*//*tpa=http://www.yonyou.com/static/images/line.png*/ 440px center no-repeat;
+}
+.footer .left span{
+    color: #a5a5a5;
+}
+.footer .left a{
+	color: #FFFFFF;
+}
+.footer .left ul li:first-child{
+	font-weight: bold;
+}
+.footer .right{
+	width: 660px;
+	color: #a5a5a5;
+}
+.footer .right .bai,.footer .right span{
+	color: #FFFFFF;
+}
+.footer .right .tel{
+	font-size: 20px;
+	font-weight: bold;
+}
+.footer .right .time{
+	color: #a5a5a5;
+	font-size: 12px;
+}
+.footer .right a{
+	color: #a5a5a5;
+}
+.footer .bottom{
+	background: #333333;
+	height: 70px;
+	line-height: 70px;
+}
+
+.footer .bottom ul li{
+	float: left;
+}
+.footer .bottom ul li span{
+	margin: 0px 5px;
+}
+.footer .bottom .copyright{
+	font-size: 12px;
+}
+
+
+
+
+

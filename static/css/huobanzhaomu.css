@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* author:英雄づ小将 <303781721@qq.com> */
+
+/*.banner1{height:317px;background:url(../images/banner1.jpg) no-repeat center top;}*/
+.tit1{font:100 44px/52px "微软雅黑", "黑体";color:#e60012;text-align:center;}
+
+.whyyy{text-align:center;}
+.whyyy .bg-gray{padding:20px;font:14px/24px "微软雅黑", "黑体";color:#636363;}
+.whyyy .tit2{margin-bottom:10px;font:22px/28px "微软雅黑", "黑体";}
+.whyyy .col-md-12 .con1{text-align:left;}
+.con2{font:14px/24px "微软雅黑", "黑体";color:#343434; text-align:center;}
+.bg1{background:url("../images/bg1.jpg")/*tpa=http://www.yonyou.com/static/images/bg1.jpg*/ no-repeat center bottom;}
+
+.copyright{padding:10px 0;font:12px/18px "宋体";color:#f7f8f8;text-align:center;background:#a0a0a0;}
+div
+{
+    text-align:center;
+}
+div img
+{
+    margin:0 auto;
+}
+

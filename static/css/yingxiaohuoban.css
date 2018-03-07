@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* author:英雄づ小将 <303781721@qq.com> */
+
+.banner1{height:317px;background:url("../images/yingxiao/banner1.jpg")/*tpa=http://www.yonyou.com/static/images/yingxiao/banner1.jpg*/ no-repeat center top;}
+.tit1{
+    font:100 44px/52px "微软雅黑", "黑体";
+    color:#e60012;
+    text-align:center;
+    
+}
+.con2{font:16px/24px "微软雅黑", "黑体";color:#343434;}
+.red{color:#e60012;}
+
+.zongzhi
+{
+    margin-left:100px;
+    }
+.zongzhi li{float:left;margin-left:10px;padding:0 10px 20px;width:237px;height:190px; list-style:none;font:14px/24px "微软雅黑", "黑体";color:#343434;text-align:center; box-shadow:0 0 5px #a5a5a5; box-sizing:border-box;}
+.zongzhi li:first-child{margin-left:0px;}
+.zongzhi li img{margin:10px 0;}
+
+
+.guest{padding:0px; margin-left:85px;}
+.guest li{float:left;margin-bottom:12px;list-style:none;width:494px;background:#ffffff;border-radius:3px;}
+.guest li:nth-child(even){margin-left:10px;}
+.guest .pic{position:relative;float:left;width:188px;text-align:center;}
+.guest .pic:after{position:absolute;top:20px;right:0px;content:"";height:37px;width:1px;background:#c4c4c4;}
+.guest .intro{float:left;margin:13px 0 0 20px;font:14px/24px "微软雅黑", "黑体";color:#343434;}
+.guest .company{font-weight:800;}
+
+.copyright{padding:10px 0;font:12px/18px "宋体";color:#f7f8f8;text-align:center;background:#a0a0a0;}
+
+
+
+.bg-gray{background:#f7f8f8;}
+.h20{height:20px;}
+.h30{height:30px;}
+.h40{height:40px;}
+.h50{height:50px;}
+.subnav .main
+{
+   padding-top:80px;
+}
+
+
+
+/*.subcontent{
+	font-size: 14px;
+	color: #999999;
+	text-align:center;
+}
+
+.sitemap{
+	font-size: 14px;
+	margin: 120px 0 0 0;
+}*/

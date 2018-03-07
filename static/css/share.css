@@ -1,0 +1,353 @@
+@charset "utf-8";
+body,
+div,
+address,
+blockquote,
+iframe,
+ul,
+ol,
+dl,
+dt,
+dd,
+li,
+dl,
+h1,
+h2,
+h3,
+h4,
+pre,
+table,
+caption,
+th,
+td,
+form,
+legend,
+fieldset,
+input,
+button,
+select,
+textarea,
+p {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+body {
+    font-family: "Arial";
+    color: #4c4c4c;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+a:hover {
+    color: #da251c;
+}
+
+input:focus {
+    outline: 0 none;
+}
+
+
+/*common*/
+
+body,
+html {
+    background: #fff;
+    min-width: 1200px;
+}
+
+textarea:focus {
+    outline: 0 none;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    min-width: 1200px;
+    font-family: "微软雅黑";
+}
+
+::-moz-placeholder {
+    color: #afb0b4;
+}
+
+::-webkit-input-placeholder {
+    color: #afb0b4;
+}
+
+:-ms-input-placeholder {
+    color: #afb0b4;
+}
+
+* {
+    -webkit-animation-fill-mode: both !important;
+    -ms-animation-fill-mode: both !important;
+    -moz-animation-fill-mode: both !important;
+    -o-animation-fill-mode: both !important;
+    animation-fill-mode: both !important;
+}
+
+.o_main_box {
+    background: #f7f7f7;
+    padding: 28px 0;
+}
+
+.o_main_box .inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.o_main_box .com_r_box {
+    width: 936px;
+    background: #fff;
+}
+
+.o_main_box .com_r_box .in {
+    padding: 29px 30px 0;
+}
+
+.o_main_box .com_r_box .hd {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 15px;
+    margin-bottom: 27px;
+}
+
+.o_main_box .com_r_box .hd span {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 22px;
+    color: #1e1e1e;
+    border-left: 9px solid #e60012;
+    height: 22px;
+    line-height: 22px;
+}
+
+
+/*contact_main*/
+
+.contact_main .com_r_box .item {
+    border-bottom: 1px dashed #e5e5e5;
+    margin-bottom: 18px;
+}
+
+.contact_main .com_r_box .item:last-child {
+    border: 0 none;
+}
+
+.contact_main .com_r_box .item dt {
+    font-size: 18px;
+    color: #e60012;
+    margin-bottom: 22px;
+}
+
+.contact_main .com_r_box .item dd {
+    font-size: 18px;
+    color: #e60012;
+    margin-bottom: 29px;
+}
+
+.contact_main .com_r_box .item li {
+    float: left;
+    padding-left: 53px;
+    margin-right: 80px;
+    display: inline;
+    background: url("../images/i8.png")/*tpa=http://www.yonyou.com/static/images/i8.png*/ no-repeat 0 0;
+}
+
+.contact_main .com_r_box .item li .p1 {
+    font-size: 16px;
+    color: #7b7b7b;
+    margin-bottom: 7px;
+}
+
+.contact_main .com_r_box .item li .p2 {
+    font-size: 18px;
+    color: #2c2c2c;
+}
+
+.contact_main .com_r_box .item .li_1 {
+    background-position: 0 0px;
+}
+
+.contact_main .com_r_box .item .li_4 {
+    background-position: 0 -70px;
+}
+
+.contact_main .com_r_box .item .li_5 {
+    background-position: 0 -140px;
+}
+
+.contact_main .com_r_box .item .li_6 {
+    background-position: 0 -210px;
+}
+
+.contact_main .com_r_box .item .li_2 {
+    background-position: 0 -280px;
+}
+
+.contact_main .com_r_box .item .li_3 {
+    background-position: 0 -360px;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    display: block;
+    overflow: hidden
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.fl {
+    float: left;
+    display: inline;
+}
+
+.sub_nav {
+    width: 244px;
+    background: #fff;
+    margin-right: 19px;
+}
+
+.sub_nav .bd li {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.sub_nav .bd li:last-child {
+    border-bottom: 3px solid #e60012;
+}
+
+.sub_nav .bd li a {
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    color: #292929;
+    font-size: 18px;
+    background: #fff;
+    padding-left: 27px;
+    background: url("../images/i7.png")/*tpa=http://www.yonyou.com/static/images/i7.png*/ no-repeat 90% center;
+}
+
+.sub_nav .bd li .on,
+.sub_nav .bd li a:hover {
+    background-color: #e60012;
+    color: #fff;
+}
+
+.sub_nav_2 .hd {
+    background: #e60012;
+    height: 54px;
+    line-height: 54px;
+    font-size: 22px;
+    padding-left: 27px;
+    color: #fff;
+    cursor: pointer;
+    /*  background: url(../images/a_b.png)  #e60012 no-repeat 91% center; */
+}
+
+.sub_nav_2 .hd.on {
+    background: url("../images/a_t.png")/*tpa=http://www.yonyou.com/static/images/a_t.png*/ #e60012 no-repeat 91% center;
+}
+
+.sub_nav .bd li .on,
+.sub_nav .bd li a:hover {
+    color: #e60012;
+    background: url("../images/i9.png")/*tpa=http://www.yonyou.com/static/images/i9.png*/ no-repeat 90% center;
+}
+
+.fixed_r_nav {
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    width: 40px;
+}
+
+.fixed_r_nav li {
+    margin-bottom: 1px;
+}
+
+.fixed_r_nav li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/i4.png")/*tpa=http://www.yonyou.com/static/images/i4.png*/ no-repeat center center;
+}
+
+.fixed_r_nav li a:hover {
+    background: url("../images/i4_on.png")/*tpa=http://www.yonyou.com/static/images/i4_on.png*/ no-repeat center center;
+}
+
+.fixed_r_nav .li_1 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.fixed_r_nav .li_1 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    background-position: 0 0;
+}
+
+.fixed_r_nav .li_2 a {
+    background-position: 0 -41px;
+}
+
+.fixed_r_nav .li_3 a {
+    background-position: 0 -82px;
+}
+
+.fixed_r_nav .li_4 a {
+    background-position: 0 -123px;
+}
+
+.fixed_r_nav .li_1 .on {
+    left: -129px;
+    background: url("../images/i4_on1.png")/*tpa=http://www.yonyou.com/static/images/i4_on1.png*/ no-repeat 0 center;
+}
+
+.fixed_r_nav .li_2 a:hover {
+    background-position: 0 -41px;
+}
+
+.fixed_r_nav .li_3 a:hover {
+    background-position: 0 -82px;
+}
+
+.fixed_r_nav .li_4 a:hover {
+    background-position: 0 -123px;
+}

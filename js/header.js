@@ -114,12 +114,12 @@
         "<div class='bd'>" +
         "<ul class='t1'>" +
         "<li><span>面向大型企业</span></li>" +
-        "<li><a target='_blank' title='大型企业管理与电子商务平台' href='soft-l-nc6.html'>用友NC6</a></li>" +
-        "<li><a target='_blank' title='多组织企业互联网应用平台' href='soft-l-nc6.html'>用友U9</a></li>" +
-        "<li><a target='_blank' title='多组织企业互联网应用平台' href='soft-l-nc6.html'>用友MES</a></li>" +
-        "<li><a target='_blank' title='人力资本管理平台' href='soft-l-nc6.html'>用友HCM</a></li>" +
-       // "<li><a target='_blank' title='商业分析' href='http://bq.yonyou.com/bqweb/index.html'>用友BQ</a></li>" +
-      //  "<li><a target='_blank' title='智能IT服务管理解决方案' href='http://subject.yonyou.com/20130426/ism.html'>iSM</a></li>" +
+        "<li><a target='_self' title='大型企业管理与电子商务平台' href='soft-l-nc6.html'>用友NC6</a></li>" +
+        "<li><a target='_self' title='多组织企业互联网应用平台' href='soft-l-u9.html'>用友U9</a></li>" +
+        "<li><a target='_self' title='多组织企业互联网应用平台' href='soft-l-mes.html'>用友MES</a></li>" +
+        "<li><a target='_self' title='人力资本管理平台' href='soft-l-hcm.html'>用友HCM</a></li>" +
+       // "<li><a target='_self' title='商业分析' href='http://bq.yonyou.com/bqweb/index.html'>用友BQ</a></li>" +
+      //  "<li><a target='_self' title='智能IT服务管理解决方案' href='http://subject.yonyou.com/20130426/ism.html'>iSM</a></li>" +
 
        // "<li><a target='_blank' title='打通所有电商平台数据' href='http://www.dsclouds.com'>电商通</a></li>" +
         "</ul>" +
@@ -135,10 +135,10 @@
         "</ul>" +
         "<ul class='last'>" +
         "<li><span>面向小微企业 </span></li>" +
-        "<li><a target='_blank' href='http://software.chanjet.com/rj-Tg.html'>畅捷通T+</a></li>" +
-        "<li><a target='_blank' href='http://software.chanjet.com/rj-T1.html'>畅捷通T1</a></li>" +
-        "<li><a target='_blank' href='http://software.chanjet.com/rj-T3.html'>畅捷通T3</a></li>" +
-        "<li><a target='_blank' href='http://software.chanjet.com/rj-T6.html'>畅捷通T6</a></li>" +
+        "<li><a target='_self' href='T.html'>畅捷通T+</a></li>" +
+        "<li><a target='_self' href='T.html'>畅捷通T1</a></li>" +
+        "<li><a target='_self' href='T.html'>畅捷通T3</a></li>" +
+        "<li><a target='_self' href='T.html'>畅捷通T6</a></li>" +
         "</ul>" +
         "</div>" +
         "</div>" +
@@ -192,15 +192,15 @@
 //      "</ul>" +
 //      
         
-        "</div>" +
-        "</div>" +
-        "<div class='other'>" +
-        "<a target='_blank' href='http://www.yyuap.com/'>iUAP</a> | " +
-        "<span>企业互联网开放平台</span>" +
-        "</div>" +
-        "</div>" +
-        "</div>" +
-        "</div>" +
+//      "</div>" +
+//      "</div>" +
+//      "<div class='other'>" +
+//      "<a target='_blank' href='http://www.yyuap.com/'>iUAP</a> | " +
+//      "<span>企业互联网开放平台</span>" +
+//      "</div>" +
+//      "</div>" +
+//      "</div>" +
+//      "</div>" +
 
 
         

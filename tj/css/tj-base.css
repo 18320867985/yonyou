@@ -1,0 +1,81 @@
+/* basic-css */
+/* 基本元素重置 */
+html { overflow-x:hidden;  }
+*{margin:0px; padding:0px;}
+body,html{font-size:12px; font-family:"微软雅黑",SimSun,SimHei; color:#686868; background-color:#FFF; }
+img{border:0px;}
+a{text-decoration:none; color:#404242; outline:none;}
+
+li,dl,dt,dd{list-style-type:none;}
+input,textarea,select,option,em,h1,h2,h3,h4,h4,h6,strong,span,li,dl,dt{font-size:12px; font-family:"微软雅黑"}
+h1,h2,h3,h4,h5,h6,em,i{font-style:normal; font-weight:400; outline:none;}
+
+/* 重用类样式 */
+.f_l{float:left !important;}
+.f_r{float:right !important;}
+.no_margin{margin:0px !important;}
+.no_border{border:0px !important;}
+.no_bg{background:none !important;}
+.clear_both{clear:both !important;}
+.display_block{display:block !important;}
+.text_over{overflow:hidden; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; -moz-binding: url('ellipsis.xml#ellipsis');}
+
+
+/* 重用自定义样式 */
+.w_100{width:100%;}
+.w_95{width:95%;}
+.indextx{width:980px;margin:0 auto; margin-top:10px; background:#FFFFFF;}
+.w_min_width{min-width:1200px;}
+.w_1200{width:1200px;}
+.w_1067{width:1067px;}
+.w_980{width:980px;}
+#yhal .yhal_bottom .yhal_bottom_left .yhal_bottom_left_center h1 a {
+	color: #FFF;
+}
+.content .fh .fh1 {
+	width: 60px;
+	float: right;
+	position: absolute;
+	left: 920px;
+	top: 36px;
+}
+.content .fh .fh1 a {
+	float: right;
+}
+.dzhy_banner .dzhy_1000 .jiathis_style {
+	margin-left: 800px;
+}
+.jxhy_banner .jxhy_1000 .jiathis_style {
+	margin-left: 800px;
+}
+.symy_banner .symy_1000 .jiathis_style {
+	margin-left: 800px;
+}
+.sphy_banner .sphy_1000 .jiathis_style {
+	margin-left: 800px;
+}
+.fdc_banner .fdc_1000 .jiathis_style {
+	margin-left: 800px;
+}
+.gcxm_banner .gcxm_1000 .jiathis_style {
+	margin-left: 800px;
+}
+.ncpjg_banner .ncpjg_1000 .jiathis_style {
+	margin-left: 800px;
+}
+.qphy_banner .qphy_1000 .jiathis_style {
+	margin-left: 800px;
+}
+.qthy_banner .qthy_1000 .jiathis_style {
+	margin-left: 800px;
+}
+.sphy_banner .sphy_1000 .jiathis_style {
+	margin-left: 800px;
+}
+
+
+
+
+
+
+

@@ -192,15 +192,15 @@
 //      "</ul>" +
 //      
         
-//      "</div>" +
-//      "</div>" +
+        "</div>" +
+        "</div>" +
 //      "<div class='other'>" +
 //      "<a target='_blank' href='http://www.yyuap.com/'>iUAP</a> | " +
 //      "<span>企业互联网开放平台</span>" +
 //      "</div>" +
-//      "</div>" +
-//      "</div>" +
-//      "</div>" +
+        "</div>" +
+        "</div>" +
+     "</div>" +
 
 
         

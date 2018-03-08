@@ -47,7 +47,7 @@
 //			"<li><a href='http://nc.yonyou.com/about/shengming.aspx' target='_blank'>法律声明</a></li>" +
 ////			"<li><a href='http://park.yonyou.com/luxian.asp' target='_blank'>用友地图</a></li>" +
 //		"</ul>" +
-		"<div class='copyright ' style='text-align:center; font-size:14px;'>版权所有：用友网络科技股份有限公司©2015 京ICP备05007539号-7 京ICP证100714号 京公网安备11010802021935号</div>	" +
+		"<div class='copyright ' style='text-align:center; font-size:14px;'>Copyright © 2002-2020 SCN. 深圳市新司南科技有限公司 版权所有 粤ICP备12037860号 By深圳市新司南科技有限公司</div>	" +
 	"</div>" +
 "</div>" +
 "</div>";
@@ -55,4 +55,5 @@
 $(function () {
     $("#footerjs").html(footer);
 });
+
 

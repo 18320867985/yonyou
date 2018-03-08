@@ -1,0 +1,1 @@
+define(["jquery","util"],function(i,n){i("body").css("visibility","visible");var t={init:function(){this.initSalesServer(),this.initEvent()},initEvent:function(){},initSalesServer:function(){}};i(function(){t.init()})});

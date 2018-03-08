@@ -6,8 +6,8 @@
         "<div class='bar'>" +
         "<div class='main'>" +
         "<ul class='one'>" +
-        "<li class='index'><a href='index.html'>用友首页</a></li>" +
-        "<li class='tel'>400-6688-8899</li>" +
+        "<li class='index'><a href='index.html'>用友</a></li>" +
+        "<li class='tel'>400-660-2350</li>" +
         "</ul>" +
        
         "<ul class='four'>" + loginBtn +
@@ -24,7 +24,7 @@
         "<li><a href='javascript:void(0)'>云服务</a></li>" +
         "<li><a href='javascript:void(0)'>软件</a></li>" +
       
-        "<li><a href='javascript:void(0)'>关于用友</a></li>" +
+        "<li><a href='javascript:void(0)'>关于我们</a></li>" +
         "<li>" +
         "<form id='search' name='search' action='' method='post'>" +
         "<!-- <input type='text' name='search' value='' /> -->" +
@@ -51,27 +51,28 @@
         "</ul>" +
         "<div class='bd'>" +
         "<ul>" +
-        "<li><a target='_blank' href='https://www.yonyoucloud.com/cloud_sales.html'>用友营销云</a></li>" +
-        "<li><a target='_blank' href='https://www.yonyoucloud.com/cloud_buy.html'>用友采购云</a></li>" +
-        "<li><a target='_blank' href='https://www.yonyoucloud.com/cloud_assist.html'>用友协同云</a></li>" +
-        "<li><a target='_blank' href='https://www.yonyoucloud.com/cloud_finance.html'>用友财务云</a></li>" +
-        "<li><a target='_blank' href='https://www.yonyoucloud.com/cloud_hr.html'>用友人力云</a></li>" +
-        "<li><a target='_blank' href='https://www.yonyoucloud.com/cloud_project.html'>用友工程云</a></li>" +
-        "<li><a target='_blank' href='https://www.yonyoucloud.com/cloud_analysis.html'>用友分析云</a></li>" +
-        "<li><a target='_blank' href='https://www.yonyoucloud.com/cloud_u8.html '>U8 cloud</a></li>" +
-        "<li><a target='_blank' href='https://www.yonyoucloud.com/cloud_ebill.html'>用友电子发票</a></li>" +
-        "<li><a target='_blank' href='https://www.yonyoucloud.com/cloud_connect.html'>用友云通信</a></li>" +
+        "<li><a target='_self' href='cloud.html'>营销云</a></li>" +
+        "<li><a target='_self'  href='cloud-buy.html'>采购云</a></li>" +
+        "<li><a target='_self'  href='cloud-assist.html'>协同云</a></li>" +
+      
+      //  "<li><a target='_self'  href='cloud-hr.html'>人力云</a></li>" +
+      //  "<li><a target='_self' href='https://www.yonyoucloud.com/cloud_project.html'>工程云</a></li>" +
+   //     "<li><a target='_self' href='https://www.yonyoucloud.com/cloud_analysis.html'>分析云</a></li>" +
+        "<li><a target='_blank' href='cloud-u8.html'>U8 cloud</a></li>" +
+    //    "<li><a target='_self' href='https://www.yonyoucloud.com/cloud_ebill.html'>电子发票</a></li>" +
+      //  "<li><a target='_self' href='cloud-connect.html'>云通信</a></li>" +
         "</ul>" +
         
         "<ul>" +
-        "<li><a target='_blank' href='http://cc.yonyoucloud.com'>建筑</a></li>" +
-        "<li><a target='_blank' href='http://www.yonyoufinancial.com/index.php?m=content&c=index&a=lists&catid=11'>金融</a></li>" +
-        "<li><a target='_blank' href='http://ny.yonyou.com'>能源</a></li>" +
-        "<li><a target='_blank' href='http://subject.yonyou.com/zt/jingzhi/'>制造</a></li>" +
-        "<li><a target='_blank' href='http://auto.yonyou.com/IT_Solutions/zhengche/IT_zhengche-index.html'>汽车</a></li>" +
-        "<li><a target='_blank' href='http://www.seentao.com/Solution/index'>教育</a></li>" +
-        "<li><a target='_blank' href='http://www.yonyouhit.com'>医疗</a></li>" +
-        "<li><a target='_blank' href='http://www.uf-tobacco.com/plan_list.html?name=all'>烟草</a></li>" +
+//      "<li><a target='_self' href='index.html'>建筑</a></li>" +
+//      "<li><a target='_self' href='index.html'>金融</a></li>" +
+//      "<li><a target='_self' href='index.html'>能源</a></li>" +
+//      "<li><a target='_self' href='index.html'>制造</a></li>" +
+//      "<li><a target='_self' href='index.html'>汽车</a></li>" +
+//      "<li><a target='_self' href='index.html'>教育</a></li>" +
+//      "<li><a target='_self' href='index.html'>医疗</a></li>" +
+//      "<li><a target='_self' href='index.html'>烟草</a></li>" +
+       "<li><a target='_self'  href='cloud-hr.html'>人力云</a></li>" +
         "</ul>" +
 //      
 //      "<ul>" +
@@ -81,10 +82,14 @@
 //      "</ul>" +
 //      
         "<ul>" +
-        "<li><a target='_blank' href='http://chanpay.com/'>畅捷支付</a></li>" +
-        "<li><a target='_blank' href='https://scf.yonyou.com'>用友供应链金融</a></li>" +
-        "<li><a target='_blank' href='http://chanpay.com/site/pages/yin.html'>银企联云服务</a></li>" +
-        "<li><a target='_blank' href='http://www.yygold.com/'>企业理财</a></li>" +
+//      
+//      "<li><a target='_self' href='index.html'>畅捷支付</a></li>" +
+//      "<li><a target='_self' href='index.html'>供应链金融</a></li>" +
+//      "<li><a target='_self' href='index.html'>银企联云服务</a></li>" +
+//      "<li><a target='_self' href='index.html'>企业理财</a></li>" +
+
+   "<li><a target='_self' href='cloud-connect.html'>云通信</a></li>" +
+        
         "</ul>" +
 //      
 //      "<ul>" +
@@ -114,20 +119,20 @@
         "<div class='bd'>" +
         "<ul class='t1'>" +
         "<li><span>面向大型企业</span></li>" +
-        "<li><a target='_self' title='大型企业管理与电子商务平台' href='soft-l-nc6.html'>用友NC6</a></li>" +
-        "<li><a target='_self' title='多组织企业互联网应用平台' href='soft-l-u9.html'>用友U9</a></li>" +
-        "<li><a target='_self' title='多组织企业互联网应用平台' href='soft-l-mes.html'>用友MES</a></li>" +
-        "<li><a target='_self' title='人力资本管理平台' href='soft-l-hcm.html'>用友HCM</a></li>" +
-       // "<li><a target='_self' title='商业分析' href='http://bq.yonyou.com/bqweb/index.html'>用友BQ</a></li>" +
+        "<li><a target='_self' title='大型企业管理与电子商务平台' href='soft-l-nc6.html'>NC6</a></li>" +
+        "<li><a target='_self' title='多组织企业互联网应用平台' href='soft-l-u9.html'>U9</a></li>" +
+        "<li><a target='_self' title='多组织企业互联网应用平台' href='soft-l-mes.html'>MES</a></li>" +
+        "<li><a target='_self' title='人力资本管理平台' href='soft-l-hcm.html'>HCM</a></li>" +
+       // "<li><a target='_self' title='商业分析' href='http://bq.yonyou.com/bqweb/index.html'>BQ</a></li>" +
       //  "<li><a target='_self' title='智能IT服务管理解决方案' href='http://subject.yonyou.com/20130426/ism.html'>iSM</a></li>" +
 
        // "<li><a target='_blank' title='打通所有电商平台数据' href='http://www.dsclouds.com'>电商通</a></li>" +
         "</ul>" +
         "<ul class='t2'>" +
         "<li><span>面向中型及成长型企业</span></li>" +
-        "<li><a target='_self' title='成长型企业互联网应用平台' href='soft-u8.html?id=18'>用友U8+</a></li>" +
-        "<li><a target='_self' title='企业产品生命周期管理解决方案' href='soft-PLM.html'>用友PLM</a></li>" +
-        "<li><a target='_self' title='企业客户关系管理解决方案' href='soft-ERP.html'>用友CRM</a></li>" +
+        "<li><a target='_self' title='成长型企业互联网应用平台' href='soft-u8.html?id=18'>U8+</a></li>" +
+        "<li><a target='_self' title='企业产品生命周期管理解决方案' href='soft-PLM.html'>PLM</a></li>" +
+        "<li><a target='_self' title='企业客户关系管理解决方案' href='soft-ERP.html'>CRM</a></li>" +
       //  "<li><a target='_blank' title='企业实时服务桌面' href='http://fwq.yonyou.com/up_service/index.php?r=up_shop/index'>服务圈</a></li>" +
        // "<li><a target='_blank' title='企业一体化营销服务平台' href='https://uhy.yonyoucloud.com/'>U会员</a></li>" +
        // "<li><a target='_blank' title='让企业生意快起来' href='https://udh.yonyoucloud.com/'>U订货</a></li>" +
@@ -136,9 +141,9 @@
         "<ul class='last'>" +
         "<li><span>面向小微企业 </span></li>" +
         "<li><a target='_self' href='T.html'>畅捷通T+</a></li>" +
-        "<li><a target='_self' href='T.html'>畅捷通T1</a></li>" +
-        "<li><a target='_self' href='T.html'>畅捷通T3</a></li>" +
-        "<li><a target='_self' href='T.html'>畅捷通T6</a></li>" +
+        "<li><a target='_self' href='T1.html'>畅捷通T1</a></li>" +
+        "<li><a target='_self' href='T3.html'>畅捷通T3</a></li>" +
+        "<li><a target='_self' href='T6.html'>畅捷通T6</a></li>" +
         "</ul>" +
         "</div>" +
         "</div>" +
@@ -209,18 +214,18 @@
         "<div class='main'>" +
         "<a href='javascript:void(0);' class='dot'></a>" +
         "<div class='dolist'>" +
-        "<p class='pic'><img src='./static/images/pic1.jpg' alt='' /></p>" +
-        "<p class='pic'><img src='./static/images/pic2.jpg' alt='' /></p>" +
+        "<p class='pic'><img src='./static/images/pic1.jpg' alt=''  style='width:300px; height:174px'  /></p>" +
+        "<p class='pic'><img src='./static/images/pic19.jpg' alt='' style='width:300px; height:174px' /></p>" +
         "<ul class='mu'>" +
         "<li><a href='about.html?id=0&v=0.0.2'>公司介绍</a></li>" +
         "<li><a href='about.html?id=1&v=0.0.2'>成员企业</a></li>" +
         "<li><a href='about.html?id=2&v=0.0.2'>企业文化</a></li>" +
-        "<li><a href='about.html?id=3&v=0.0.2'>公司领导</a></li>" +
-        "<li><a href='about.html?id=4&v=0.0.2'>用友荣誉</a></li>" +
-        "<li><a href='about.html?id=5&v=0.0.2'>用友大事记</a></li>" +
-        "<li><a href='about.html?id=6&v=0.0.2'>投资者关系</a></li>" +
-//      "<li><a href='about.html?id=7&v=0.0.2'>视觉用友</a></li>" +
-        "<li><a href='about.html?v=0.0.5'>联系用友</a></li>" +
+      //  "<li><a href='about.html?id=3&v=0.0.2'>公司领导</a></li>" +
+        "<li><a href='about.html?id=3&v=0.0.2'>荣誉</a></li>" +
+        "<li><a href='about.html?id=4&v=0.0.2'>大事记</a></li>" +
+       // "<li><a href='about.html?id=6&v=0.0.2'>投资者关系</a></li>" +
+//      "<li><a href='about.html?id=7&v=0.0.2'>视觉</a></li>" +
+     //   "<li><a href='about.html?v=0.0.5'>联系</a></li>" +
         "</ul>" +
         "</div>" +
         "</div> " +

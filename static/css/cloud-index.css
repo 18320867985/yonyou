@@ -1,0 +1,1975 @@
+@media (max-width:992px) {
+	body {
+		min-width: 1250px !important;
+	}
+}
+
+body {
+	background: #FFFFFF;
+}
+
+
+/*body div{
+	overflow: hidden;
+}*/
+
+.main {
+	position: relative;
+	width: 1170px;
+	margin: 0px auto;
+}
+
+.main div ul {
+	overflow: hidden;
+}
+
+
+/*header*/
+
+.indexheader {
+	background: #FFFFFF;
+	width: 100%;
+	z-index: 1000;
+}
+
+.indexheader div {
+	overflow: hidden;
+}
+
+.fixed {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+.indexheader .bar {
+	border-bottom: 1px solid #e2e2e2;
+	height: 36px;
+	font-size: 12px;
+	color: #a6a6a6;
+}
+
+.indexheader .bar ul {
+	float: left;
+}
+
+.indexheader .bar ul li {
+	height: 36px;
+	line-height: 36px;
+	float: left;
+}
+
+.indexheader .bar ul li a {
+	color: #a6a6a6;
+}
+
+.indexheader .bar ul li span {
+	margin: 0px 5px;
+}
+
+.indexheader .bar .one li {
+	float: left;
+	padding-left: 20px;
+	margin-right: 10px;
+}
+
+.indexheader .bar .one li.index {
+	background: url("../images/icons_h3.png")/*tpa=http://www.yonyou.com/static/images/icons_h3.png*/
+	0px 8px no-repeat;
+}
+
+.indexheader .bar .one li.tel {
+	background: url("../images/icons_tel3.png")/*tpa=http://www.yonyou.com/static/images/icons_tel3.png*/
+	0px 8px no-repeat;
+}
+
+.indexheader .bar .one,
+.indexheader .bar .one a {
+	color: #666666;
+}
+
+.indexheader .bar .four,
+.indexheader .bar .four a {
+	color: #ee5c48;
+}
+
+.indexheader .bar .two {
+	margin-left: 100px;
+}
+
+.indexheader .bar .three {
+	margin-left: 100px;
+}
+
+.indexheader .bar .four {
+	margin-left: 140px;
+}
+
+.indexheader .bar .five {
+	float: right;
+}
+
+.indexheader .nav {
+	margin: 0 auto;
+}
+
+.indexheader .nav:after {
+	clear: both;
+}
+
+.indexheader .nav .logo {
+	background: url("../images/logo.png")/*tpa=http://www.yonyou.com/static/images/logo.png*/
+	0px 0px no-repeat;
+	width: 200px;
+	height: 60px;
+	margin-top: 10px;
+	float: left;
+}
+
+.indexheader .nav .logo a {
+	width: 100px;
+	height: 60px;
+	display: block;
+}
+
+.indexheader .nav .menu {
+	float: left;
+	margin-left: 150px;
+	color: #292929;
+	font-size: 18px;
+	line-height: 60px;
+	height: 60px;
+}
+
+
+.indexheader .nav .menu li {
+	float: left;
+	padding: 0px 40px;
+}
+
+.indexheader .nav .menu li a {
+	color: #292929;
+	width: 100%;
+	height: 70px;
+	display: block;
+}
+
+.indexheader .nav .menu li.on a,
+.indexheader .nav .menu li a:hover {
+	color: #ee5c48;
+}
+
+.indexheader .nav .menulist {
+	z-index: 999;
+	background: #FFFFFF;
+	width: 100%;
+}
+
+.indexheader .nav .menulist .list {
+	display: none;
+}
+
+.indexheader .nav .menulist .main {
+	border-bottom: 1px solid #ccc;
+}
+
+#search input {
+	background: url("../images/icons_search.png")/*tpa=http://www.yonyou.com/static/images/icons_search.png*/
+	right center no-repeat;
+	width: 180px;
+	height: 32px;
+	margin-top: 20px;
+	border: 1px solid #dfdfdf;
+	padding-left: 10px;
+}
+
+
+/*下拉菜单*/
+
+.main .dot {
+	display: block;
+	background: url("../images/pic4.jpg")/*tpa=http://www.yonyou.com/static/images/pic4.jpg*/
+	no-repeat;
+	width: 19px;
+	height: 9px;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	margin-left: -10px;
+	z-index: 9;
+}
+
+.threelist {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.threelist .hd {
+	width: 100%;
+	border-bottom: 1px solid #fc000d;
+	height: 35px;
+	line-height: 35px;
+	overflow: hidden;
+}
+
+.threelist .hd li {
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+
+.threelist .hd li span {
+	display: block;
+	padding: 0px 10px;
+	color: #808080;
+	font-size: 18px;
+	float: left;
+}
+
+.threelist .hd li.active span {
+	background: #fc000d;
+	color: #fff;
+}
+
+.threelist .tablist {
+	width: 590px;
+	float: left;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.threelist .tablist .bd {
+	width: 100%;
+	overflow: hidden;
+	padding: 10px 0px;
+}
+
+.threelist .tablist .bd .t1 {
+	width: 180px;
+}
+
+.threelist .tablist .bd .t2 {
+	width: 240px;
+}
+
+.threelist .tablist .bd .last {
+	width: 130px;
+}
+
+.threelist .tablist .bd ul {
+	float: left;
+	width: 16.65%;
+}
+
+.threelist .tablist .bd ul li {
+	padding: 1px 10px;
+	overflow: hidden;
+	color: #ccc;
+}
+
+.threelist .tablist .bd ul li span {
+	font-size: 16px;
+	color: #fc000d;
+	display: block;
+}
+
+.threelist .tablist .bd ul li a {
+	font-size: 14px;
+	color: #808080;
+	line-height: 25px;
+	margin-right: 10px;
+}
+
+.threelist .tablist .bd ul li a:hover {
+	color: #fc000d;
+	border-bottom: 1px solid #fc000d;
+}
+
+.threelist .jie {
+	float: left;
+	width: 580px;
+	box-sizing: border-box;
+}
+
+.threelist .jie .bd {
+	width: 100%;
+	overflow: hidden;
+	padding: 10px 0px;
+}
+
+.threelist .jie .bd ul {
+	overflow: hidden;
+	float: left;
+}
+
+.threelist .jie .bd ul li {
+	overflow: hidden;
+	float: left;
+	*display: inline;
+	*zoom: 1;
+}
+
+.threelist .jie .bd ul .biaoti {
+	float: none;
+}
+
+.threelist .jie .bd ul li span {
+	color: #fc000d;
+	font-size: 16px;
+}
+
+.threelist .jie .bd ul li a {
+	display: block;
+	font-size: 14px;
+	color: #808080;
+	line-height: 25px !important;
+	margin-right: 38px;
+}
+
+.threelist .jie .bd ul li a:hover {
+	color: #fc000d;
+	border-bottom: 1px solid #fc000d;
+}
+
+.threelist .other {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: #ccc;
+	overflow: hidden;
+	text-align: center;
+}
+
+.threelist .other span {
+	color: #808080;
+	font-size: 16px;
+}
+
+.threelist .other a {
+	font-size: 16px;
+	color: #808080;
+}
+
+.threelist .other a:hover {
+	color: #fc000d;
+	border-bottom: 1px solid #fc000d;
+}
+
+.lilist {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.lilist .hd {
+	width: 100%;
+	border-bottom: 1px solid #fc000d;
+	height: 35px;
+	line-height: 35px;
+	overflow: hidden;
+}
+
+.lilist .hd li {
+	float: left;
+	width: 15%;
+	overflow: hidden;
+}
+
+.lilist .hd li:first-child {
+	margin-left: 9%
+}
+
+.lilist .hd li span {
+	padding: 0px 10px;
+	color: #fc000d;
+	font-size: 18px;
+}
+
+.lilist .hd li.active span {
+	background: #fc000d;
+	color: #fff;
+}
+
+.lilist .bd {
+	width: 100%;
+	overflow: hidden;
+	padding: 10px 0px;
+	margin-left: 9%
+}
+
+.lilist .bd ul {
+	float: left;
+	width: 15%;
+}
+
+.lilist .bd ul li {
+	padding: 1px 10px;
+	overflow: hidden;
+}
+
+.lilist .bd ul li a {
+	font-size: 14px;
+	color: #808080;
+	line-height: 25px !important;
+	margin-right: 10px;
+}
+
+.lilist .bd ul li a:hover {
+	color: #fc000d;
+	border-bottom: 1px solid #fc000d;
+}
+
+.cutlist {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+
+.cutlist .left {
+	float: left;
+	width: 500px;
+	overflow: hidden;
+	border-top: 1px solid #fc000d;
+}
+
+.cutlist .right {
+	float: right;
+	width: 470px;
+	overflow: hidden;
+	border-top: 1px solid #fc000d;
+}
+
+.cutlist .pic {
+	float: left;
+	margin-right: 50px;
+	overflow: hidden;
+	padding-top: 40px;
+}
+
+.cutlist dl {
+	float: left;
+	overflow: hidden;
+	padding-top: 35px;
+}
+
+.cutlist dl dt {
+	font-size: 18px;
+	font-weight: bold;
+	color: #8a8a8a;
+	line-height: 30px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.cutlist dl dd {
+	font-size: 16px;
+	padding: 6px 0px;
+	overflow: hidden;
+}
+
+.cutlist dl dd a {
+	display: block;
+	font-size: 16px;
+	color: #808080;
+	line-height: 30px;
+	border-bottom: 1px solid #f8f8f8;
+	float: left;
+}
+
+.cutlist dl dd a:hover {
+	color: #fc000d;
+	border-bottom: 1px solid #fc000d;
+}
+
+.dolist {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 60px;
+	border-top: 1px solid #fc000d;
+}
+
+.dolist .pic {
+	float: left;
+	margin-right: 60px;
+	padding-top: 40px;
+}
+
+.dolist .mu {
+	float: right;
+	font-size: 16px;
+	overflow: hidden;
+	width: 420px;
+	margin-right: -20px;
+	padding-top: 25px;
+}
+
+.dolist .mu li {
+	float: left;
+	overflow: hidden;
+	width: 120px;
+	padding-right: 20px;
+	padding: 10px 0px;
+}
+
+.dolist .mu li a {
+	color: #8a8a8a;
+	line-height: 30px !important;
+	display: block;
+	border-bottom: 1px solid #f8f8f8;
+	float: left;
+}
+
+.dolist .mu li a:hover {
+	color: #fc000d;
+	border-bottom: 1px solid #fc000d;
+}
+
+
+/*下拉菜单 end*/
+
+
+/*banner*/
+
+#feature {
+	margin-top: 106px;
+}
+
+.slideBox {
+	width: 100%;
+	height: 560px;
+	overflow: hidden;
+	position: relative;
+}
+
+.slideBox .bd {
+	position: relative;
+	height: 100%;
+	z-index: 0;
+}
+
+.slideBox .bd li.active {
+	display: block;
+}
+
+.slideBox .bd li {
+	zoom: 1;
+	vertical-align: middle;
+	position: relative;
+}
+
+.slideBox .bd li a {
+	width: 100%;
+	height: 560px;
+	display: block;
+}
+
+.slideBox .bd img {
+	width: 100%;
+	height: 560px;
+	display: block;
+}
+
+.slideBox .hd {
+	width: auto;
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	z-index: 999;
+}
+
+.slideBox .hd ul {
+	cursor: pointer;
+}
+
+.slideBox .hd ul li {
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 10px;
+	background: url("../images/icons_qiu1.png")/*tpa=http://www.yonyou.com/static/images/icons_qiu1.png*/
+	0px 0px no-repeat;
+}
+
+.slideBox .hd ul li.on {
+	background: url("../images/icons_qiu2.png")/*tpa=http://www.yonyou.com/static/images/icons_qiu2.png*/
+	0px 0px no-repeat;
+}
+
+.picScroll-left {
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.picScroll-left .hd {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.picScroll-left .hd .prev,
+.picScroll-left .hd .next {
+	display: block;
+	width: 30px;
+	height: 70px;
+	margin-top: 55px;
+}
+
+.picScroll-left .hd .prev {
+	background: url("../images/prev2.png")/*tpa=http://www.yonyou.com/static/images/prev2.png*/
+	0px 0px no-repeat;
+	float: left;
+}
+
+.picScroll-left .hd .prev:hover {
+	background: url("../images/prev2.png")/*tpa=http://www.yonyou.com/static/images/prev2.png*/
+	0px -70px no-repeat;
+}
+
+.picScroll-left .hd .next {
+	background: url("../images/next2.png")/*tpa=http://www.yonyou.com/static/images/next2.png*/
+	0px 0px no-repeat;
+	float: right;
+}
+
+.picScroll-left .hd .next:hover {
+	background: url("../images/next2.png")/*tpa=http://www.yonyou.com/static/images/next2.png*/
+	0px -70px no-repeat;
+	float: right;
+}
+
+.picScroll-left .hd .pageState {
+	display: none;
+}
+
+.picScroll-left .hd .prevStop {
+	background-position: -60px 0;
+}
+
+.picScroll-left .hd .nextStop {
+	background-position: -60px -50px;
+}
+
+.picScroll-left .hd ul {
+	display: none;
+	float: right;
+	overflow: hidden;
+	zoom: 1;
+	margin-top: 10px;
+	zoom: 1;
+}
+
+.picScroll-left .hd ul li {
+	float: left;
+	width: 9px;
+	height: 9px;
+	overflow: hidden;
+	margin-right: 5px;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+.picScroll-left .hd ul li.on {
+	background-position: 0 0;
+}
+
+.picScroll-left .bd {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.picScroll-left .bd ul {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.picScroll-left .bd ul li {
+	margin: 0 10px;
+	float: left;
+	_display: inline;
+	overflow: hidden;
+	text-align: center;
+}
+
+.picScroll-left .bd ul li .pic {
+	text-align: center;
+	width: 182px;
+	height: 182px;
+	position: relative;
+}
+
+.picScroll-left .bd ul li .pic a:hover img {
+	border-color: #999;
+}
+
+.picScroll-left .bd ul li .pic .links {
+	padding-top: 80px;
+	color: #FFFFFF;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background: url("../images/link_bg.png")/*tpa=http://www.yonyou.com/static/images/link_bg.png*/
+	repeat;
+	text-align: center;
+}
+
+.picScroll-left .bd ul li .pic .links span {
+	font-size: 14px;
+}
+
+.picScroll-left .bd ul li .title {
+	line-height: 24px;
+	font-size: 14px;
+}
+
+.titles {
+	padding: 50px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.titles h1 {
+	color: #444444;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 100;
+}
+
+.titles span {
+	background: #7c7c7c;
+	width: 50px;
+	height: 2px;
+	display: block;
+	margin: 10px auto;
+}
+
+.titles .sub {
+	text-align: center;
+	font-size: 14px;
+	color: #cccccc;
+}
+
+.huibg {
+	background: #f0f0f0;
+	width: 100%;
+}
+
+
+/*企业应用软件*/
+
+.yingyong {
+	width: 100%;
+	height: 370px;
+}
+
+.yingyong .one,
+.yingyong .two,
+.yingyong .three,
+.yingyong .four,
+.yingyong .five {
+	float: left;
+}
+
+.yingyong .one {
+	width: 200px;
+	height: 340px;
+	background: url("../images/banner/bGs2.jpg")/*tpa=http://www.yonyou.com/static/images/banner/bGs2.jpg*/
+	bottom left no-repeat #ff3e24;
+}
+
+.yingyong .two,
+.yingyong .three,
+.yingyong .four {
+	width: 180px;
+	/*height: 235px;*/
+	height: 320px;
+	padding: 10px;
+	margin-left: 8px;
+	background: white;
+}
+
+.yingyong .three,
+.yingyong .four {
+	margin-left: 5px;
+}
+
+.yingyong .banner1 {
+	height: 340px;
+	position: relative;
+}
+
+.yingyong .banner1 .banner {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 610px;
+}
+
+.yingyong .banner1 .text h2 {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 100;
+	height: 34px;
+	line-height: 34px;
+	background: #b3b3b3;
+	color: #fff;
+}
+
+.yingyong .five {
+	width: 342px;
+	height: 340px;
+	margin-left: 10px;
+	background: url("../images/icons_box1.png")/*tpa=http://www.yonyou.com/static/images/icons_box1.png*/
+	center bottom no-repeat #FFFFFF;
+}
+
+
+/*第一个块的大标题*/
+
+.yingyong .one h1 {
+	font-size: 30px;
+	line-height: 40px;
+	color: white;
+	padding: 35px 0 0 20px;
+}
+
+.yingyong .one h1 a {
+	color: white;
+}
+
+.yingyong .one h1 a span {
+	font-size: 24px;
+}
+
+
+/*第一个块中的链接列表*/
+
+.yingyong .one ul {
+	padding: 25px 0 0 20px;
+}
+
+.yingyong .one ul li {
+	font-size: 16px;
+	line-height: 29px;
+}
+
+.yingyong .one ul li a {
+	color: white;
+}
+
+
+/*第二个、第三个块中的题图*/
+
+.yingyong .img {
+	width: 180px;
+	/*height: 110px;*/
+	height: 203px;
+}
+
+
+/*第二个、第三个块中的文字*/
+
+.yingyong .two .text,
+.yingyong .three .text,
+.yingyong .four .text {
+	width: 180px;
+	margin-top: 20px;
+}
+
+.yingyong .text ul {
+	margin: 10px 0 0 0;
+	padding: 0 0 0 10px;
+	background: url("../images/icons_tri4.png")/*tpa=http://www.yonyou.com/static/images/icons_tri4.png*/
+	no-repeat -2px 3px;
+}
+
+.yingyong .text ul li {
+	float: left;
+	width: 63px;
+	height: 30px;
+	padding: 0 0 0 10px;
+}
+
+.yingyong .text ul .lastli {
+	width: 135px;
+}
+
+.yingyong .text ul li a {
+	color: #999;
+	font-size: 14px;
+}
+
+.yingyong .text ul li a:hover {
+	color: #ee5c48;
+}
+
+
+/*第四个块的上半部分*/
+
+.yingyong .five .text1 {
+	height: 160px;
+	background: white;
+	padding: 28px 0 0 30px;
+}
+
+
+/*下半部分*/
+
+.yingyong .five .text2 {
+	/*margin-top: 10px;*/
+	background: white;
+}
+
+
+/*下半部分两个切换按钮*/
+
+.yingyong .five .ly {
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+.yingyong .five .ly li {
+	width: 171px;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	background: #b3b3b3;
+	cursor: pointer;
+}
+
+.yingyong .five .ly li.active {
+	background: #ff543d;
+}
+
+.yingyong .text ul.lylist {
+	margin: 20px 0 0 30px;
+}
+
+
+/*互联网服务*/
+
+.hulian {
+	width: 100%;
+	height: 370px;
+}
+
+.hulian .one,
+.hulian .two,
+.hulian .three,
+.hulian .four {
+	float: left;
+}
+
+.hulian .one {
+	width: 200px;
+	height: 340px;
+	background: url("../images/banner/bGs1.jpg")/*tpa=http://www.yonyou.com/static/images/banner/bGs1.jpg*/
+	bottom left no-repeat #0dc7c8;
+}
+
+.hulian .two,
+.hulian .three {
+	width: 290px;
+	height: 340px;
+	margin-left: 8px;
+}
+
+
+/*修改部分 .hulian .two-.hulian .five部分布局删除*/
+
+.hulian .cenTre {
+	float: left;
+	padding: 0 10px;
+}
+
+.hulian .cenTre .cenTre-top {
+	margin-bottom: 10px;
+}
+
+.hulian .cenTre .cenTre-top .top-left {
+	background: url("../images/banner/di2.jpg")/*tpa=http://www.yonyou.com/static/images/banner/di2.jpg*/
+	no-repeat bottom #fff;
+	width: 274px;
+}
+
+.hulian .cenTre .cenTre-top .top-centre {
+	background: url("../images/banner/di3.jpg")/*tpa=http://www.yonyou.com/static/images/banner/di3.jpg*/
+	no-repeat bottom #fff;
+	width: 375px;
+}
+
+.hulian .cenTre .cenTre-top .top-right {
+	width: 173px;
+}
+
+.hulian .cenTre .cenTre-div {
+	background: #fff;
+	float: left;
+	margin-right: 10px;
+}
+
+.hulian .cenTre .cenTre-div p {
+	background: #ff543d;
+	color: #fff;
+	font-size: 16px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.hulian .cenTre .cenTre-div .cenDiv {
+	height: 160px;
+	padding: 20px 15px 20px;
+	overflow: hidden;
+}
+
+.hulian .cenTre .cenTre-div ul {
+	height: 100%;
+}
+
+.hulian .cenTre .cenTre-div ul li {
+	float: left;
+	margin: 0 9px 10px 0;
+	width: 73px;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	border: 1px dashed #ddd;
+	border-radius: 3px;
+}
+
+.hulian .cenTre .top-centre ul li {
+	margin-right: 11px;
+}
+
+.hulian .cenTre .top-centre ul li:last-of-type {
+	width: 157px;
+}
+
+.hulian .cenTre .top-right {
+	margin-right: 0;
+	background: url("../images/banner/di1.png")/*tpa=http://www.yonyou.com/static/images/banner/di1.png*/
+	no-repeat bottom #fff;
+	background-size: 100%;
+}
+
+.hulian .cenTre .top-right ul li {
+	margin-right: 0;
+}
+
+.hulian .cenTre .top-right ul li {
+	width: 99%;
+}
+
+.hulian .cenTre .cenTre-div ul li:hover {
+	transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-webkit-transition: .3s;
+	border: 1px solid #ff543d;
+	background: #ff543d;
+}
+
+.hulian .cenTre .cenTre-div ul li:hover a {
+	transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-webkit-transition: .3s;
+	background: #ff543d;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.hulian .cenTre .cenTre-div ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.hulian .cenTre .top-left ul li:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+.hulian .cenTre-bottom .bottom-div {
+	width: 416px;
+}
+
+.hulian .cenTre-bottom .bottom-left {
+	float: left;
+}
+
+.hulian .cenTre-bottom .bottom-right {
+	float: right;
+}
+
+.hulian .cenTre-bottom .bottom-div p {
+	font-size: 14px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	background: #b2b2b2;
+}
+
+.hulian .cenTre-bottom .bottom-div ul {
+	padding: 0 8px;
+	height: auto;
+	overflow: hidden;
+	/*display:-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -moz-box-pack:justify;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+    justify-content: space-between;*/
+}
+
+.hulian .cenTre-bottom .bottom-div .bottom-divs {
+	float: left;
+	width: 100%;
+	padding: 5px 0px;
+	background: #fff;
+}
+
+.hulian .cenTre-bottom .bottom-div ul li {
+	float: left;
+	line-height: 30px;
+	font-size: 14px;
+	color: #333;
+	margin-right: 4px;
+}
+
+
+/*.hulian .cenTre-bottom .bottom-div ul li:hover a{
+	color: #ff543d;
+}*/
+
+
+/*.hulian .cenTre-bottom .bottom-div ul li:hover{
+	color: #ff543d;
+}*/
+
+.hulian .riGht {
+	background: #fff;
+	/*background: url(../images/banner/right-shichang.jpg) no-repeat;*/
+	width: 108px;
+	height: 340px;
+	float: left;
+	text-align: center;
+}
+
+.hulian .riGht p {
+	padding-top: 25px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #ff543e;
+}
+
+.hulian .riGht ul {
+	margin-top: 20px;
+}
+
+.hulian .riGht ul li {
+	font-size: 14px;
+	line-height: 32px;
+}
+
+.hulian .riGht ul li:hover a {
+	color: #ee5c48;
+}
+
+
+/*以上为修改*/
+
+.hulian .two {
+	width: 200px;
+}
+
+.hulian .two .a {
+	height: 168px
+}
+
+.hulian .two .b {
+	height: 168px;
+	margin-top: 4px;
+}
+
+.hulian .three {
+	margin-left: 5px;
+	width: 260px;
+}
+
+.hulian .four {
+	width: 286px;
+	height: 340px;
+	margin-left: 5px;
+}
+
+.hulian .one h1 {
+	font-size: 30px;
+	line-height: 40px;
+	color: white;
+	padding: 35px 0 0 20px;
+}
+
+.hulian .one h1 a {
+	color: white;
+}
+
+.hulian .one h1 a span {
+	font-size: 24px;
+}
+
+.hulian .one ul {
+	padding: 25px 0 0 20px;
+}
+
+.hulian .one ul li {
+	font-size: 16px;
+	line-height: 29px;
+}
+
+.hulian .one ul li a {
+	color: white;
+}
+
+.hulian .five {
+	width: 200px;
+	float: right;
+}
+
+.hulian .five .a {
+	height: 168px;
+}
+
+.hulian .five .b {
+	margin-top: 4px;
+	height: 168px;
+}
+
+
+/*金融服务*/
+
+.jinrong {
+	width: 100%;
+	height: 370px;
+}
+
+.jinrong .one,
+.jinrong .two,
+.jinrong .three,
+.jinrong .four {
+	float: left;
+}
+
+.jinrong .one {
+	width: 200px;
+	height: 340px;
+	background: url("../images/banner/bGs3.jpg")/*tpa=http://www.yonyou.com/static/images/banner/bGs3.jpg*/
+	bottom left no-repeat #ffa517;
+}
+
+.jinrong .two {
+	width: 287px;
+	height: 340px;
+	margin-left: 8px;
+}
+
+.jinrong .three {
+	width: 220px;
+	height: 340px;
+	margin-left: 5px;
+}
+
+.jinrong .four {
+	width: 220px;
+	height: 340px;
+	margin-left: 5px;
+}
+
+.jinrong .five {
+	width: 220px;
+	height: 340px;
+	margin-left: 5px;
+	float: right;
+}
+
+.jinrong .one h1 {
+	font-size: 30px;
+	line-height: 40px;
+	color: white;
+	padding: 35px 0 0 20px;
+}
+
+.jinrong .one h1 a {
+	color: white;
+}
+
+.jinrong .one h1 a span {
+	font-size: 24px;
+}
+
+.jinrong .one ul {
+	padding: 25px 0 0 20px;
+}
+
+.jinrong .one ul li {
+	font-size: 16px;
+	line-height: 29px;
+}
+
+.jinrong .one ul li a {
+	color: white;
+}
+
+.jinrong .twotop {
+	width: 219px;
+	height: 168px;
+}
+
+.jinrong .twobottom {
+	width: 219px;
+	height: 168px;
+	margin-top: 4px;
+}
+
+
+/*修改*/
+
+.linkDiv .link_box .link-img {
+	line-height: 340px;
+	background: #fff;
+}
+
+.linkDiv .link_box img {
+	vertical-align: middle;
+}
+
+
+/*以上为修改*/
+
+
+/*鼠标hover 菜单滑出*/
+
+.link_box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: pointer;
+}
+
+
+/*初始底部链接*/
+
+.link {
+	width: 100%;
+	height: 34px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: url("../images/link_bg.png")/*tpa=http://www.yonyou.com/static/images/link_bg.png*/
+	repeat;
+	;
+	text-align: center;
+	font-size: 16px;
+	line-height: 34px;
+	color: white;
+}
+
+
+/*大的滑出区块*/
+
+.link2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: url("../images/link_bg.png")/*tpa=http://www.yonyou.com/static/images/link_bg.png*/
+	repeat;
+	;
+	text-align: center;
+}
+
+.link2 h2 {
+	width: 100%;
+	height: 44px;
+	padding: 60px 0 0 0;
+	font-size: 24px;
+	color: white;
+	font-weight: 100;
+}
+
+.te h2 {
+	padding: 80px 0 0 0;
+}
+
+.link2 p {
+	width: 100%;
+	height: 70px;
+	font-size: 14px;
+	color: white;
+}
+
+.link2 a {
+	display: block;
+	width: 160px;
+	height: 30px;
+	background: #ffa517;
+	line-height: 30px;
+	margin: 0 auto;
+	color: white;
+}
+
+
+/*小的滑出区块*/
+
+.link3 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: url("../images/link_bg.png")/*tpa=http://www.yonyou.com/static/images/link_bg.png*/
+	repeat;
+	;
+	text-align: center;
+}
+
+.link3 h2 {
+	width: 100%;
+	height: 44px;
+	padding: 20px 0 0 0;
+	font-size: 24px;
+	color: white;
+	font-weight: 100;
+}
+
+.link3 p {
+	width: 100%;
+	height: 40px;
+	font-size: 14px;
+	color: white;
+}
+
+.link3 a {
+	display: block;
+	width: 160px;
+	height: 30px;
+	background: #ffa517;
+	line-height: 30px;
+	margin: 0 auto;
+	color: white;
+}
+
+
+/*企业新闻*/
+
+.news {
+	width: 100%;
+	height: 550px;
+}
+
+.news_box {
+	position: relative;
+	height: 420px;
+}
+
+
+/*各个新闻内容的容器*/
+
+.news_content {
+	position: absolute;
+	width: 1170px;
+	height: 420px;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+
+/*切换菜单*/
+
+.news_menu {
+	position: absolute;
+	top: 18px;
+	right: 0;
+	width: 680px;
+	height: 50px;
+	z-index: 99;
+}
+
+
+/*一条新闻*/
+
+.one_news {
+	height: 420px;
+	display: none;
+}
+
+.one_news .text {
+	float: right;
+	width: 660px;
+	height: 320px;
+	margin: 73px 0 0 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+
+.one_news .text .more {
+	position: absolute;
+	right: 25px;
+	bottom: 10px;
+}
+
+.one_news .title {
+	font-size: 14px;
+	margin: 10px 0px;
+}
+
+.one_news .title a {
+	color: #ee5c48;
+}
+
+.news_menu ul li {
+	float: left;
+	padding: 0 30px;
+	font-size: 18px;
+	line-height: 50px;
+	color: #666;
+	cursor: pointer;
+}
+
+.news_menu ul li.active {
+	color: #e60012;
+	padding: 0 20px 0 30px;
+	margin: 0 10px 0 0;
+	color: #e60012;
+	background: url("../images/icons_tri5.png")/*tpa=http://www.yonyou.com/static/images/icons_tri5.png*/
+	no-repeat right center;
+}
+
+
+/*头条新闻*/
+
+.one_news .text .headline {
+	padding: 30px 0 18px 0;
+}
+
+.one_news .text .headline p {
+	line-height: 20px;
+	color: #999;
+}
+
+
+/*头条新闻日期*/
+
+.one_news .text .headline .date {
+	float: left;
+	width: 100px;
+	height: 90px;
+	text-align: center;
+	border-right: 1px solid #ddd;
+}
+
+.one_news .text .day {
+	display: block;
+	width: 100px;
+	height: 50px;
+	font-size: 35px;
+	color: #ee5c48;
+}
+
+.one_news .text .year {
+	display: block;
+	width: 100px;
+	height: 40px;
+	font-size: 13px;
+	color: #999;
+}
+
+.one_news .text .headline .else {
+	padding: 0 0 0 20px;
+}
+
+.dynamic .text ul {
+	border-top: 1px solid #ddd;
+}
+
+.one_news .text ul {
+	width: 635px;
+	padding: 24px 0 0 0;
+}
+
+.one_news .text ul li {
+	padding: 0 0 0 20px;
+	background: url("../images/icons_tri7.png")/*tpa=http://www.yonyou.com/static/images/icons_tri7.png*/
+	no-repeat left 3px;
+	height: 36px;
+}
+
+.one_news .text ul li a {
+	font-size: 14px;
+}
+
+.one_news .text ul li span {
+	float: right;
+	font-size: 12px;
+	color: #434343;
+}
+
+.one_news h2 {
+	color: #ee5c48;
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 40px;
+}
+
+.one_news .more {
+	text-align: right;
+	padding: 5px 0 0 0;
+}
+
+.one_news .more a {
+	color: #ee5c48;
+	font-size: 14px;
+}
+
+.one_news .more2 {
+	text-align: right;
+}
+
+.one_news .more2 a {
+	color: #ee5c48;
+	font-size: 14px;
+}
+
+.video .text ul {
+	width: 50%;
+	float: left;
+	border-top: 1px solid #ddd;
+}
+
+.video .text ul li {
+	background: url("../images/icons_video.jpg")/*tpa=http://www.yonyou.com/static/images/icons_video.jpg*/
+	0px top no-repeat;
+	padding-left: 30px;
+}
+
+.video .text ul li a {
+	color: #999999;
+}
+
+.solution .text ul {
+	width: 50%;
+	float: left;
+}
+
+.solution .text ul li span {
+	float: left;
+	color: #666666;
+	font-size: 12px;
+	width: 80px;
+	height: 20px;
+	margin-right: 10px;
+	border-right: 1px solid #666666;
+}
+
+.solution .text ul li a {
+	float: left;
+	color: #999999;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 200px;
+}
+
+.leftmenu {
+	position: fixed;
+	top: 100px;
+	left: 0;
+	height: 600px;
+	z-index: 990;
+	width: 250px;
+	display: none;
+}
+
+.leftmenu ul {
+	height: 600px;
+}
+
+.leftmenu ul li {
+	position: relative;
+	width: 100%;
+}
+
+.leftmenu ul li a {
+	display: block;
+	width: 55px;
+	height: 50px;
+}
+
+.leftmenu a.lm_1 {
+	background: url("../images/ln11.png")/*tpa=http://www.yonyou.com/static/images/ln11.png*/
+	no-repeat left top;
+	background-size: 55px;
+}
+
+.leftmenu a.lm_2 {
+	background: url("../images/ln21.png")/*tpa=http://www.yonyou.com/static/images/ln21.png*/
+	no-repeat left top;
+	background-size: 55px;
+}
+
+.leftmenu a.lm_3 {
+	background: url("../images/ln31.png")/*tpa=http://www.yonyou.com/static/images/ln31.png*/
+	no-repeat left top;
+	background-size: 55px;
+}
+
+.leftmenu a.lm_4 {
+	background: url("../images/ln41.png")/*tpa=http://www.yonyou.com/static/images/ln41.png*/
+	no-repeat left top;
+	background-size: 55px;
+}
+
+.leftmenu a.lm_5 {
+	background: url("../images/ln51.png")/*tpa=http://www.yonyou.com/static/images/ln51.png*/
+	no-repeat left top;
+	background-size: 55px;
+}
+
+.leftmenu a:hover,
+.leftmenu a.active {
+	background-position: left bottom;
+}
+
+.leftmenu ul li.one .open {
+	position: absolute;
+	z-index: 200;
+	top: 0px;
+	left: -250px;
+	width: 200px;
+	display: block;
+}
+
+.leftmenu ul li.two .open {
+	position: absolute;
+	z-index: 200;
+	top: -50px;
+	left: -250px;
+	width: 200px;
+	height: 500px;
+	display: block;
+}
+
+.leftmenu ul li.three .open {
+	position: absolute;
+	z-index: 200;
+	top: -100px;
+	left: -250px;
+	width: 200px;
+	height: 450px;
+	display: block;
+}
+
+.leftmenu ul li.four .open {
+	position: absolute;
+	z-index: 200;
+	top: -150px;
+	left: -250px;
+	width: 200px;
+	height: 400px;
+	display: block;
+}
+
+.leftmenu ul li .title {
+	background: #ad000e;
+	padding: 10px 20px;
+	color: #FFFFFF;
+}
+
+.leftmenu ul li .title h5 {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.leftmenu ul li .content {
+	background: #ad000e;
+	height: 450px;
+	padding: 0px 20px 20px 20px;
+	color: #FFFFFF;
+	/*display: none;*/
+}
+
+.leftmenu ul li .bh {
+	height: 600px;
+}
+
+.leftmenu ul li .bh2 {
+	height: 166px;
+}
+
+.leftmenu ul li .content a {
+	color: #FFFFFF;
+	width: auto;
+	height: auto;
+	display: inline-block;
+}
+
+.leftmenu ul li .content .small {
+	width: 30px;
+}
+
+.leftmenu ul li .content .small2 {
+	width: ;
+	text-align: center;
+}
+
+.leftmenu ul li .content span {
+	color: #FFFFFF;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.leftmenu ul li .content p {
+	padding: 5px 0px;
+}
+
+.leftmenu ul li .content p em {
+	margin: 0px 5px;
+}
+
+.username {
+	display: block;
+	max-width: 80px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+/*footer*/
+
+.footer {
+	background: #242424;
+	width: 100%;
+	font-size: 14px;
+}
+
+.footer .p60 {
+	padding: 40px 0px;
+}
+
+.footer .left,
+.footer .right {
+	float: left;
+}
+
+.footer .left ul,
+.footer .right ul {
+	float: left;
+	line-height: 25px;
+}
+
+.footer .left ul {
+	margin-right: 100px;
+}
+
+.footer .right ul:first-child {
+	margin-right: 100px;
+}
+
+.footer .right ul:last-child {
+	float: right;
+}
+
+.footer .left {
+	width: 510px;
+	background: url("../images/line.png")/*tpa=http://www.yonyou.com/static/images/line.png*/
+	440px center no-repeat;
+}
+
+.footer .left span {
+	color: #a5a5a5;
+}
+
+.footer .left a {
+	color: #FFFFFF !important;
+}
+
+.footer .left ul li:first-child {
+	font-weight: bold;
+}
+
+.footer .right {
+	width: 660px;
+	color: #a5a5a5;
+}
+
+.footer .right .bai,
+.footer .right span {
+	color: #FFFFFF;
+}
+
+.footer .right .tel {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.footer .right .time {
+	color: #a5a5a5;
+	font-size: 12px;
+}
+
+.footer .right a {
+	color: #a5a5a5;
+}
+
+.footer .bottom {
+	background: #333333;
+	height: 70px;
+	line-height: 70px;
+}
+
+.footer .bottom ul li {
+	float: left;
+}
+
+.footer .bottom ul li span {
+	margin: 0px 5px;
+}
+
+#footerjs .footer a,
+.copyright {
+	color: #fff !important;
+}
+
+#footerjs .footer span {
+	color: #f0f0f0 !important;
+}
+
+.indexheader .nav {
+	width: 1349px;
+	font-size: 16px;
+	border-bottom: 1px solid #f8f8f8;
+}
